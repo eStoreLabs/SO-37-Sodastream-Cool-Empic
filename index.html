@@ -24,7 +24,7 @@
     src: local("empikPro-Book"), url("./fonts/empikPro-Book.woff2") format("woff2");
   }
   #es-rc #es-rc-content {
-    font-family: "empikPro-Regular", sans-serif, sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.2;
@@ -32,7 +32,7 @@
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    color: #14284b;
+    color: #14284b !important;
     background: #fff;
   }
   #es-rc #es-rc-content * {
@@ -40,6 +40,7 @@
   }
   #es-rc #es-rc-content p {
     margin: 0;
+    line-height: normal !important;
   }
   #es-rc #es-rc-content h2,
   #es-rc #es-rc-content h3,
@@ -47,6 +48,7 @@
   #es-rc #es-rc-content h5,
   #es-rc #es-rc-content h6 {
     margin: 0;
+    line-height: inherit !important;
   }
   #es-rc #es-rc-content img {
     max-width: 100%;
@@ -71,20 +73,22 @@
   #es-rc #es-rc-content .es-kv__title {
     margin-bottom: 10px;
     font-size: 70px;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
     font-weight: 900;
     color: inherit;
   }
   #es-rc #es-rc-content .es-kv__subtitle {
     margin-bottom: 30px;
     font-size: 18px;
-    font-family: "empikPro-Black", sans-serif;
-    font-weight: 700;
+    font-family: empik, "empikPro-Black", sans-serif;
+    font-weight: 900;
+    color: #14284b !important;
   }
   #es-rc #es-rc-content .es-kv__description {
     margin-bottom: 20px;
-    font-family: "empikPro-Black", sans-serif;
-    font-weight: 700;
+    font-family: empik, "empikPro-Black", sans-serif;
+    font-weight: 900;
+    color: #14284b !important;
   }
   #es-rc #es-rc-content .es-kv__packshot {
     max-width: 30%;
@@ -107,7 +111,7 @@
   #es-rc #es-rc-content .es-description__title {
     margin-bottom: 35px;
     font-size: 16px;
-    font-family: "empikPro-Bold", sans-serif;
+    font-family: empik, "empikPro-Bold", sans-serif;
     font-weight: 700;
     color: #eeebe6;
     text-align: center;
@@ -115,7 +119,7 @@
   #es-rc #es-rc-content .es-description__subtitle {
     margin-bottom: 35px;
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
     font-weight: 500;
     color: #eeebe6;
     text-align: center;
@@ -129,14 +133,15 @@
     margin-bottom: 20px;
     text-align: center;
     font-size: 24px;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    font-weight: 900;
     color: #ffffff;
     text-align: center;
   }
   #es-rc #es-rc-content .es-style__subtitle {
     margin-bottom: 10px;
     font-size: 18px;
-    font-family: "empikPro-Bold", sans-serif;
+    font-family: empik, "empikPro-Bold", sans-serif;
     color: #ffffff;
     text-align: center;
   }
@@ -147,7 +152,7 @@
     max-width: 450px;
     margin: 0 auto;
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
     color: #ffffff;
     text-align: center;
   }
@@ -155,7 +160,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 24px;
-    font-family: "empikPro-Bold", sans-serif;
+    font-family: empik, "empikPro-Bold", sans-serif;
     color: #ffffff;
     text-align: center;
   }
@@ -183,8 +188,10 @@
     padding-right: 10px;
     margin-bottom: 30px;
     font-size: 24px;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    font-weight: 900;
     text-align: center;
+    color: #14284b !important;
   }
   #es-rc #es-rc-content .es-benefits__subtitle {
     padding-left: 10px;
@@ -192,7 +199,8 @@
     margin-bottom: 10px;
     font-size: 16px;
     text-align: left;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    font-weight: 900;
     color: #14284b;
   }
   #es-rc #es-rc-content .es-benefits__description {
@@ -200,14 +208,16 @@
     padding-right: 10px;
     margin-bottom: 20px;
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
+    color: #14284b !important;
   }
   #es-rc #es-rc-content .es-benefits__content-title {
     max-width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
     font-size: 24px;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    font-weight: 900;
     color: #eeebe6;
     text-align: center;
   }
@@ -230,7 +240,7 @@
     padding-right: 10px;
     margin-bottom: 20px;
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
     color: #eeebe6;
     text-align: center;
   }
@@ -246,7 +256,9 @@
     padding-right: 10px;
     margin-bottom: 30px;
     font-size: 24px;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    font-weight: 900;
+    color: #14284b !important;
     text-align: center;
   }
   #es-rc #es-rc-content .es-features__description {
@@ -254,7 +266,8 @@
     padding-right: 10px;
     margin-bottom: 20px;
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
+    color: #14284b !important;
   }
   #es-rc #es-rc-content .es-features__img {
     margin-bottom: 30px;
@@ -278,8 +291,9 @@
   }
   #es-rc #es-rc-content .es-features__bottle-content-icon-title {
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
     text-align: center;
+    color: #14284b !important;
   }
   #es-rc #es-rc-content .es-features__bottle-content--desktop {
     display: none;
@@ -291,6 +305,7 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
+    color: #14284b !important;
   }
   #es-rc #es-rc-content .es-steps {
     background: #eeebe6;
@@ -301,7 +316,7 @@
   }
   #es-rc #es-rc-content .es-steps__label {
     position: absolute;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
     font-size: clamp(8px, 2.5vw, 25px);
     font-weight: 700;
     color: #fff;
@@ -321,7 +336,7 @@
   }
   #es-rc #es-rc-content .es-steps__text {
     position: absolute;
-    font-family: "empikPro-Bold", sans-serif;
+    font-family: empik, "empikPro-Bold", sans-serif;
     font-size: 20px;
     font-size: clamp(18px, 5vw, 70px);
     font-weight: 700;
@@ -359,7 +374,9 @@
   #es-rc #es-rc-content .es-steps__single-title {
     font-size: 30px;
     margin-bottom: 10px;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    color: #14284b !important;
+    font-weight: 900;
     text-align: center;
   }
   #es-rc #es-rc-content .es-steps__single-description {
@@ -367,7 +384,7 @@
     padding-right: 10px;
     margin-bottom: 20px;
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
     text-align: center;
   }
   #es-rc #es-rc-content .es-restrictions {
@@ -387,20 +404,21 @@
     padding-right: 10px;
     margin-bottom: 20px;
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
     color: #eeebe6;
     text-align: center;
   }
   #es-rc #es-rc-content .es-restrictions__description--bold {
     display: block;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    font-weight: 900;
   }
   #es-rc #es-rc-content .es-restrictions__disclaimer {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
     font-size: 12px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
     color: #eeebe6;
     text-align: right;
   }
@@ -415,7 +433,9 @@
     padding-right: 10px;
     margin-bottom: 30px;
     font-size: 24px;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    color: #14284b !important;
+    font-weight: 900;
     text-align: center;
   }
   #es-rc #es-rc-content .es-design__description {
@@ -423,10 +443,12 @@
     padding-right: 10px;
     margin-bottom: 20px;
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
+    color: #14284b !important;
   }
   #es-rc #es-rc-content .es-design__description b {
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    font-weight: 900;
   }
   #es-rc #es-rc-content .es-design__left-image {
     position: absolute;
@@ -448,7 +470,9 @@
     padding-right: 10px;
     margin-bottom: 30px;
     font-size: 24px;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    color: #14284b !important;
+    font-weight: 900;
     text-align: center;
   }
   #es-rc #es-rc-content .es-cross__subtitle {
@@ -456,7 +480,8 @@
     padding-right: 10px;
     margin-bottom: 20px;
     font-size: 16px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
+    color: #14284b !important;
     text-align: center;
   }
   #es-rc #es-rc-content .es-cross__single-image {
@@ -473,7 +498,9 @@
     padding-left: 10px;
     padding-right: 10px;
     font-size: 17px;
-    font-family: "empikPro-Black", sans-serif;
+    font-family: empik, "empikPro-Black", sans-serif;
+    color: #14284b !important;
+    font-weight: 900;
     text-align: center;
   }
   #es-rc #es-rc-content .es-cross__single-description {
@@ -481,7 +508,8 @@
     padding-right: 10px;
     margin-bottom: 20px;
     font-size: 13px;
-    font-family: "empikPro-Regular", sans-serif;
+    font-family: empik, "empikPro-Regular", sans-serif;
+    color: #14284b !important;
     text-align: center;
   }
   #es-rc #es-rc-content .es-footer {
@@ -494,8 +522,9 @@
   #es-rc #es-rc-content .es-footer__subtitle {
     margin-bottom: 30px;
     font-size: 16px;
-    font-family: "empikPro-Black", sans-serif;
-    font-weight: 700;
+    font-family: empik, "empikPro-Black", sans-serif;
+    color: #14284b !important;
+    font-weight: 900;
     text-align: center;
   }
   @media screen and (min-width: 500px) {
@@ -513,26 +542,26 @@
   }
   @media screen and (min-width: 567px) {
     #es-rc #es-rc-content .es-description__img {
-      max-width: 450px;
+      max-width: 380px;
       margin-left: 0;
     }
     #es-rc #es-rc-content .es-benefits__img {
-      max-width: 450px;
+      max-width: 380px;
       margin-right: 0;
     }
     #es-rc #es-rc-content .es-features__img {
-      max-width: 450px;
+      max-width: 380px;
       margin-left: 0;
     }
     #es-rc #es-rc-content .es-design {
       padding-top: 455px;
     }
     #es-rc #es-rc-content .es-design__left-image {
-      max-width: 450px;
+      max-width: 380px;
       margin-left: 0;
     }
     #es-rc #es-rc-content .es-design__right-image {
-      max-width: 450px;
+      max-width: 380px;
       margin-right: 0;
     }
   }
@@ -613,7 +642,8 @@
     #es-rc #es-rc-content .es-style__packshot-desktop-title {
       position: absolute;
       font-size: 24px;
-      font-family: "empikPro-Bold", sans-serif;
+      font-family: empik, "empikPro-Bold", sans-serif;
+      font-weight: 700;
       color: #ffffff;
     }
     #es-rc #es-rc-content .es-style__packshot-desktop-title--1 {
