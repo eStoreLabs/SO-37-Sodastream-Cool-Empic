@@ -317,12 +317,12 @@
   #es-rc #es-rc-content .es-steps__label {
     position: absolute;
     font-family: empik, "empikPro-Regular", sans-serif;
-    font-size: clamp(8px, 2.5vw, 25px);
+    font-size: clamp(8px, 2vw, 25px);
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
-    width: clamp(50px, 20vw, 190px);
-    height: clamp(50px, 20vw, 190px);
+    width: clamp(50px, 15vw, 190px);
+    height: clamp(50px, 15vw, 190px);
     border-radius: 50%;
     background-color: #e46c5c;
     display: flex;
@@ -833,6 +833,11 @@
       font-size: 30px;
     }
   }
+  @media screen and (min-width: 800px) {
+    #es-rc #es-rc-content .es-steps__text--third {
+      right: 4%;
+    }
+  }
   @media screen and (min-width: 998px) {
     #es-rc #es-rc-content .es-kv__title {
       font-size: 120px;
@@ -1178,16 +1183,16 @@
       min-width: 225px;
     }
     #es-rc #es-rc-content .es-steps__text--first {
-      top: -1%;
+      top: 1%;
       left: 6%;
     }
     #es-rc #es-rc-content .es-steps__text--second {
-      top: -1%;
+      top: 1%;
       left: 38%;
     }
     #es-rc #es-rc-content .es-steps__text--third {
-      top: -1%;
-      right: 1%;
+      top: 1%;
+      right: 3%;
     }
   }/*# sourceMappingURL=styles.css.map */
   </style>
